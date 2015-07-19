@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9" name="GrubDB">
+  <DataContextMoniker Name="/GrubDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="dbb497b7-f6e0-4ca9-8391-dafb37a5f160" absoluteBounds="0.75, 0.75, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/GrubDBDataContext/company_info" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd122a62-1fdd-424b-bb63-af4f4be28cc0" absoluteBounds="0.765, 1.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2656bff0-26ef-4b34-b72d-42d7c0110de2" absoluteBounds="3.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/GrubDBDataContext/order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9af1f26-6913-4a3f-bca3-fa9c7359e9ff" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5eb9561-76a1-46bc-a868-10fe3b5bc4d8" absoluteBounds="3.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/GrubDBDataContext/company_login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0dce9fca-e6eb-477a-a2e7-b6eca73a142c" absoluteBounds="3.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32354f92-35d6-4136-8278-d6333e453af6" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/GrubDBDataContext/customer_info" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5e94ec4-ca77-435b-8a40-a8a7031ebb9a" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63ec3eb7-6039-4fb5-a7e7-e85ce5df1589" absoluteBounds="0.75, 6.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/GrubDBDataContext/customer_login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36d20671-cb85-4df8-94e3-5fb6aa894352" absoluteBounds="0.765, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8863a9a-4071-419b-a6fb-e09ec3753b7e" absoluteBounds="6.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/GrubDBDataContext/item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="56223d1f-8ea1-4ca4-83f6-42b0fb3c4795" absoluteBounds="6.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a712ee83-b017-413f-9c29-8bcc52635dd2" absoluteBounds="3.75, 6.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/GrubDBDataContext/menu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ef037fe-770e-46c9-8096-05655c909774" absoluteBounds="3.765, 7.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

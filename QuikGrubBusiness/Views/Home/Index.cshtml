@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="height:40em;">
+    <h1>Welcome, @(ViewBag.CompanyName)!</h1>
+    <p class="lead">This business portal will allow you to update your company information, as well as post your menu for customers</p>
+    <br /><br />
+    <div class="row" style="text-align:center;">
+        @Html.ActionLink("Update Company Info", "UpdateInfo", "Business", new { }, new { @class = "col-lg-5 col-md-6 btn btn-primary btn-lg" })
+        @Html.ActionLink("Manage uploaded Menus", "Manage", "Menu", new { }, new { @class = "col-lg-5 col-lg-offset-1 col-md-offset-0 col-md-6 btn btn-primary btn-lg" })
+    </div>
+</div>

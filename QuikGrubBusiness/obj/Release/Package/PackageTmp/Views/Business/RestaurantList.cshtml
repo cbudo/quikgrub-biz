@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Restaurant List";
+    List<selectall_company_infoResult> list = (List<selectall_company_infoResult>)ViewBag.CompanyList;
+}
+
+<h2>Your Restaurant List</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            Phone Number
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in list)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phone_number)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "UpdateInfo", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

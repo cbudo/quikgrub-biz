@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="QuikGrub" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Documents\\Visual\ Studio\ 2013\\Projects\\QuikGrubBusiness\\QuikGrubBusiness\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Documents\\Visual\ Studio\ 2013\\Projects\\QuikGrubBusiness\\QuikGrubBusiness\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="QuikGrubConnectionString-Web.config Connection String" description="" value="Data Source=budohacks.database.windows.net;Initial Catalog=QuikGrub;User ID=budocf;Password=oE!$8jQg2SLz" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Documents\\Visual\ Studio\ 2013\\Projects\\QuikGrubBusiness\\QuikGrubBusiness\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QuikGrubConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
